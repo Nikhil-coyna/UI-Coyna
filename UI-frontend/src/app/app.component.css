@@ -19,14 +19,14 @@
   }
   
   .mat-sidenav {
-    background-color: #757575;
+    background-color: rgb(29, 29, 29);
   }
   
   .mat-sidenav.mat-sidenav-open {
-    background-color: #757575;
+    background-color: #534e4e;
   }
   
   .mainpage-content {
-    background-color: #adcee6;
+    background-color: #F2F8FA;
     height: 88vh;
   }
