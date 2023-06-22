@@ -3,24 +3,25 @@
     <button mat-icon-button (click)="sidenav.toggle()">
       <mat-icon>menu</mat-icon>
     </button>
+
     <h2 style="padding-top: 2vh; display: inline-block">Coyna</h2>
+
+    <div class="spacer"></div>
 
     <div class="search-container">
       <mat-form-field class="search-field">
         <input matInput placeholder="Search" />
+        <button mat-icon-button class="search-icon-button">
+          <mat-icon>search</mat-icon>
+        </button>
       </mat-form-field>
-      <button mat-icon-button class="search-button">
-        <mat-icon>search</mat-icon>
-      </button>
     </div>
 
-    <div class="spacer"></div>
     <button mat-icon-button>
       <mat-icon>person</mat-icon>
     </button>
   </mat-toolbar-row>
 </mat-toolbar>
-
 <mat-sidenav-container>
   <mat-sidenav #sidenav mode="side">
     <mat-nav-list>

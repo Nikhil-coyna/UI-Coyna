@@ -15,7 +15,7 @@
   }
 
   .mat-toolbar {
-    background-color: white;
+    background-color: #eff3f8;
   }
   
   .mat-sidenav {
@@ -27,37 +27,38 @@
   }
   
   .mainpage-content {
-    background-color: #F2F8FA;
+    background-color: #eff3f8;
     height: 88vh;
   }
 
   .search-container {
     display: flex;
     align-items: center;
-    padding-left: 2rem; /* Adjust the padding as needed */
+    padding-left: 2rem;
     padding-top: 20px;
+    padding-right: 5rem;
+  }
+  
+  
+  .search-field {
+    width: 250px;
+    height: 70px;
+  }
+  
+  
+  .search-icon-button {
+    position: absolute;
+    right: 8px;
+    top: 50%;
+    transform: translateY(-50%);
 
   }
   
-  .search-field {
-    width: 250px; 
-    height: 60px;
-    margin-right: 4px;
-  }
-  
-  .search-button {
-    margin-left: 2px;
-  }
 
   .spacer {
     flex: 1;
     padding-right: 5rem;
+
   }
-  
-  .center-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
+
   
