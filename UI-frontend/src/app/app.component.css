@@ -48,3 +48,16 @@
   .search-button {
     margin-left: 2px;
   }
+
+  .spacer {
+    flex: 1;
+    padding-right: 5rem;
+  }
+  
+  .center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
