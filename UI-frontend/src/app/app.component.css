@@ -30,3 +30,21 @@
     background-color: #F2F8FA;
     height: 88vh;
   }
+
+  .search-container {
+    display: flex;
+    align-items: center;
+    padding-left: 2rem; /* Adjust the padding as needed */
+    padding-top: 20px;
+
+  }
+  
+  .search-field {
+    width: 250px; 
+    height: 60px;
+    margin-right: 4px;
+  }
+  
+  .search-button {
+    margin-left: 2px;
+  }
