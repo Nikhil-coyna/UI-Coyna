@@ -1,68 +1,144 @@
 .dashboard-container {
-    display: flex;
-    height: 100vh;
-  }
-  
-  .sidebar {
-    background-color: #f5f5f5;
-    width: 150px;
-    padding: 20px;
-  }
-  
-  .content {
-    flex-grow: 1;
-    padding: 20px;
-  }
+  display: flex;
+  height: 100vh;
+}
 
-  .mat-toolbar {
-    background-color: #eff3f8;
-  }
-  
-  .mat-sidenav {
-    background-color: rgb(29, 29, 29);
-  }
-  
-  .mat-sidenav.mat-sidenav-open {
-    background-color: #534e4e;
-  }
-  
-  .mainpage-content {
-    background-color: #eff3f8;
-    height: 88vh;
-  }
+.sidebar {
+  background-color: #f5f5f5;
+  width: 75px; 
+  padding: 10px;
+}
 
-  .search-container {
-    display: flex;
-    align-items: center;
-    padding-left: 2rem;
-    padding-top: 20px;
-    padding-right: 5rem;
-  }
-  
-  
-  .search-field {
-    width: 250px;
-    height: 70px;
-  }
-  
-  
-  .search-icon-button {
-    position: absolute;
-    right: 8px;
-    top: 50%;
-    transform: translateY(-50%);
 
-  }
-  
+.content {
+  flex-grow: 1;
+  padding: 20px;
+}
+.mat-nav-list {
+  padding: 0; 
+}
 
-  .spacer {
-    flex: 1;
-    padding-right: 5rem;
+.mat-list-item {
+  padding-top: 5px; 
+  padding-bottom: 5px; 
+}
 
-  }
+.mat-icon {
+  margin-right: 5px; 
+}
 
-  .debit-card-comp{
-    padding-left: 3rem;
-    padding-top: 3rem;
-  }
-  
+.mat-toolbar {
+  background-color: #eff3f8;
+}
+
+.mat-sidenav {
+  background-color: rgb(29, 29, 29);
+}
+
+.mat-sidenav.mat-sidenav-open {
+  background-color: #534e4e;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-container {
+  height: 100%;
+}
+
+.mainpage-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* .mainpage-content {
+  flex-grow: 1;
+  /* Other styles */
+ */
+
+.search-container {
+  display: flex;
+  align-items: center;
+  padding-left: 2rem;
+  padding-top: 20px;
+  padding-right: 5rem;
+}
+
+.search-field {
+  width: 250px;
+  height: 70px;
+}
+
+.search-icon-button {
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.spacer {
+  flex: 1;
+  padding-right: 5rem;
+}
+
+.cards-container {
+  display: flex;
+  /* justify-content: center; */
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.debit-card-comp {
+  display: flex;
+  padding-left: 5rem;
+  padding-top: 3rem;
+}
+
+.credit-card-comp {
+  display: flex;
+  padding-left: 5rem;
+  padding-top: 3rem;
+}
+
+.primary-comp{
+  display: flex;
+  padding-left: 5rem;
+  padding-top: 3rem;
+
+}
+
+.currency-comp{
+  display: flex;
+  padding-left: 5rem;
+  padding-top: 3rem;
+
+}
+
+.mainpage-content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; 
+  padding: 20px;
+}
+
+.welcome-text {
+  font-family: "Arial", sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+  padding-left: 5rem;
+  padding-top: 1.5rem;
+}
+
+.last-login-text {
+  font-family: "Arial", sans-serif;
+  font-size: 1.2rem;
+  color: #888;
+  padding-left: 5rem;
+}

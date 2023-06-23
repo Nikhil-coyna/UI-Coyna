@@ -24,8 +24,8 @@
     </mat-toolbar-row>
   </mat-toolbar>
 
-  <mat-sidenav-container>
-    <mat-sidenav #sidenav mode="side" opened="true">
+  <div class="dashboard-container">
+    <mat-sidenav #sidenav mode="side" opened="true" class="sidebar">
       <mat-nav-list>
         <a mat-list-item routerLink="/home" (click)="sidenav.toggle()">
           <mat-icon
@@ -60,17 +60,27 @@
       </mat-nav-list>
     </mat-sidenav>
 
-    <mat-sidenav-content>
+    <div class="mainpage-container">
       <div class="mainpage-content">
-        <div class="debit-card-comp">
-          <app-debit-card
-            [balance]="'$1000.00'"
-            [cardNumber]="'1234 5678 9012 3456'"
-            [expirationDate]="'12/24'"
-          ></app-debit-card>
+        <h2 class="welcome-text">Welcome Raghav</h2>
+        <p class="last-login-text">
+          Your last login was on 04/05/2022 at 10:24am
+        </p>
+        <div class="cards-container">
+          <div class="debit-card-comp">
+            <app-debit-card></app-debit-card>
+          </div>
+          <div class="credit-card-comp">
+            <app-credit-card></app-credit-card>
+          </div>
+          <div class="primary-comp">
+            <app-primarybox></app-primarybox>
+          </div>
+          <div class="currency-comp">
+            <app-currencybox></app-currencybox>
+          </div>
         </div>
       </div>
-    </mat-sidenav-content>
-  </mat-sidenav-container>
+    </div>
+  </div>
 </div>
-<!-- <router-outlet></router-outlet> -->

@@ -12,13 +12,19 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { DebitCardComponent } from './debit-card/debit-card.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { CreditCardComponent } from './credit-card/credit-card.component';
+import { PrimaryboxComponent } from './primarybox/primarybox.component';
+import { CurrencyboxComponent } from './currencybox/currencybox.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     DebitCardComponent,
-    NavbarComponent
+    NavbarComponent,
+    CreditCardComponent,
+    PrimaryboxComponent,
+    CurrencyboxComponent
   ],
   imports: [
     BrowserModule,
