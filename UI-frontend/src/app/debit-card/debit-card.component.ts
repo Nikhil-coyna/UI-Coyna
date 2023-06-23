@@ -6,7 +6,7 @@ import { Component ,Input} from '@angular/core';
   styleUrls: ['./debit-card.component.css']
 })
 export class DebitCardComponent {
-  @Input() balance: number | undefined;
+  @Input() balance: string | undefined;
   @Input() cardNumber: string | undefined;
   @Input() expirationDate: string | undefined;
 }
